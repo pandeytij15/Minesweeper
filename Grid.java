@@ -54,6 +54,9 @@ public class Grid {
 
             int X = (int) (Math.random() * boardSize);
             int y = (int) (Math.random() * boardSize);
+            board[X][y].setBomb();cd
+
+
         }
         ;
 
